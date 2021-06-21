@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar das meninas</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="home" class="content-default bg-img--version1">
+        <div class="container content-center--all">
+            <div>
+                <img src="img/Logobar_Moment.jpg" alt="Logo Bar" id="logo-bar" onclick="Clicavel()">
+            </div>
+        </div>
+		<div class="nav-menu-desktop">
+			<ul class="menu-desktop">
+			<li class="nav-text-desktop">
+                <a href="index.html" class="">
+                    Home
+                </a>
+            </li>
+			<li class="nav-text-desktop">
+				<a href="sobre.html" class="">
+                    Sobre
+                </a>
+			</li>
+			<li class="nav-text-desktop">
+                <a href="fotos.html" class="">
+					Fotos
+                </a>
+            </li>
+			<li class="nav-text-desktop">
+                <a href="Localizacao.html" class="">
+                    Localização
+				</a>
+            </li>
+            <li class="nav-text-desktop">
+                <a href="contato.html" class="">
+                    Contato
+				</a>
+            </li>
+        </ul>
+		</div>
+    </section>
+	<section id="local" class="content-default bg-img--version3">
+        <div class="container content-center--all">
+            <div>
+                <h3>Nosso Estabelecimento</h3>
+				<p>Nosso estabelecimento está localizado no Novo Mundo</p>
+                <div class="local-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14406.624816084744!2d-49.3123302!3d-25.4831529!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6781343362fa7a11!2sBar%20e%20Espetinhos%20das%20meninas!5e0!3m2!1spt-BR!2sbr!4v1624310295966!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+	</section>
+    <section id="contato" class="content-default bg-img--version2">
+        <div class="container content-center--all">
+            <div>
+                <h3>Dúvidas ou reserva, entre em contato conosco!</h3>
+                <div>
+                    <form id="contact-form">
+						<label for="nome">Nome</label>
+							<input type="text" id="name" name="name" placeholder="Digite seu nome completo"size="40"alt="Digite seu nome completo" required />
+						<label for="telcel">Telefone Celular</label>
+							<input type="tel" id="telcel" name="usertel" size="30" onkeypress="formatar(this,'(00)00000-0000')" maxlength="15"  placeholder="Informe celular com DDD sem o 0"required />
+						<label for="email">Email</label>
+							<input type="email" id="email" name="email" placeholder="Digite seu email">
+						<button type="submit"> Enviar </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+	<footer id="rodape">
+		<section class="nav-rodape">
+            <ul class="menu-rodape">
+				<li class="nav-text-rodape">
+                    <a href="index.html" class="">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-text-rodape">
+					<a href="sobre.html" class="">
+                        Sobre
+                    </a>
+				</li>
+				<li class="nav-text-rodape">
+                    <a href="fotos.html" class="">
+						Fotos
+                    </a>
+                </li>
+				<li class="nav-text-rodape">
+                    <a href="localizacao.html" class="">
+                        Localização
+					</a>
+                </li>
+                <li class="nav-text-rodape">
+                    <a href="contato.html" class="">
+                        Contato
+					</a>
+                </li>
+            </ul>
+		</section>
+		<h3 class="copy">&copy Suzana Alves | 2021 </h3>
+	</footer>
+</body>
+<script src="script/script.js"></script>
+</html>

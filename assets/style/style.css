@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    color: #fff;
+    font-family: 'New Tegomin', serif;
+}
+	
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.container img{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    cursor: pointer;
+}
+
+.container iframe {
+	width: 100%
+}
+
+.nav-menu-desktop {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+.nav-menu-desktop li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+.nav-menu-desktop a {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: 'New Tegomin', serif;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.content-default{
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.content-center--all{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bg-img--version1{
+    background-image: url('../img/Bar das meninas.jpg');
+}
+
+.bg-img--version2 {
+    background-image: url('../img/FundoContato.png');
+}
+
+.bg-img--version3{
+    background-image: url('../img/FundoLocal.png');
+}
+
+.content-left-main{
+    position: fixed;
+    display: grid;
+    left: 0;
+    top: 30%;
+}
+
+
+form label {
+    display: flex;
+	align-items: column;
+	text-align: center;
+    font-size: 20px;
+    margin: 0 0 10px;
+    font-style: italic;
+}
+
+form input  {
+    display: block;
+    margin: 0 0 30px;
+    padding: 5px 100px;
+    border-color: #140083;
+    font-size: 20px;
+    font-family:'New Tegomin', serif;
+    border-radius: 10px;
+}
+
+form button{
+	width: 30%;
+    padding: 10px 0;
+    background-image:url('../img/Fundo.png');
+    color: #ffffff;
+    font-size: 20px;
+    font-family:'New Tegomin', serif;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px #706A66;
+
+}
+
+form input:hover {
+    border-color: #FF7200;
+}
+
+form select:hover {
+    border-color: #FF7200;
+}
+
+footer {
+	background-image: url('../img/Fundo.png');
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+footer li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+footer a {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: 'New Tegomin', serif;
+	font-size: 15px;
+	text-decoration: none;
+}
